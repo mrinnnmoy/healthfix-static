@@ -232,6 +232,39 @@ section:nth-child(even) {
     line-height: 2;
 }
 
+/*===== About =====*/
+.about .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.row .image {
+    flex: 1 1 45rem;
+}
+
+.row .image img {
+    width: 100%;
+}
+
+.row .content {
+    flex: 1 1 45rem;
+}
+
+.row .content h3 {
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.row .content p {
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
 
 
 
